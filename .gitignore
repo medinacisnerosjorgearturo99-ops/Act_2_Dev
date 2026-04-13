@@ -1,0 +1,7 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Extensiones de editores
+.vscode/
+.idea/
