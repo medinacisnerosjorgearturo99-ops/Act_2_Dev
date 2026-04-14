@@ -10,5 +10,5 @@ phases:
       - echo "Validando estructura de archivos..."
 artifacts:
   files:
-    - '*/'
+    - '**/*'
   base-directory: '.'
