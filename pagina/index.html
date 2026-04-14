@@ -7,15 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="fondo-interactivo"></div>
+
+    <div class="controles">
+        <button id="btn-tema" class="btn-control">🌙 Modo Oscuro</button>
+        <button id="btn-animacion" class="btn-control">⏸️ Pausar Fondo</button>
+    </div>
 
     <div class="contenedor-perfil">
-        <img src="../img/logo.png" alt="Logo Tecmilenio" class="logo">
+        <img src="img/logo.png" alt="Logo Tecmilenio" class="logo" onerror="this.src='https://via.placeholder.com/220x80?text=Logo+Tecmilenio'">
         
         <div class="linea-decorativa"></div>
         
         <h1 class="nombre">Jorge Arturo Medina Cisneros</h1>
         <p class="correo">al05058893@tecmilenio.mx</p>
+
+        <button id="btn-revelar" class="btn-principal">Mostrar Identidad</button>
+
+        <div id="info-extra" class="oculto">
+            <img src="https://via.placeholder.com/150/1a1a1a/FFFFFF?text=Personaje" alt="Mi Personaje" class="foto-personaje">
+            <p class="matricula">Matrícula: <strong>al05058893</strong></p>
+        </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
